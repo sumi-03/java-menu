@@ -42,7 +42,6 @@ public class InputHandler {
         InputValidator.validateMenu(menu);
         List<String> coachAndMenuBundle = new ArrayList<>();
         coachAndMenuBundle.add(coach);
-
         String[] menus = menu.split(",");
         for (String oneMenu : menus) {
             coachAndMenuBundle.add(oneMenu);
